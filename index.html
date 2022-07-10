@@ -20,8 +20,8 @@
   <body>
     <header>
       <nav class="navmenu">
+        <img src="assets/images/Logo.svg" alt="logo" />
         <div class="menu">
-          <img src="assets/images/Logo.svg" alt="logo" />
           <ul class="nav">
             <li><a>About</a></li>
             <li><a>Help</a></li>
@@ -73,6 +73,7 @@
         </p>
       </div>
       <div class="features__cards">
+        <div class="card__screen-first">
         <div class="card__search">
           <div class="card__photo">
             <img src="assets/images/card-search-im.png" alt="" />
@@ -94,11 +95,11 @@
           </div>
         </div>
 
-        <div class="card__access">
+        <div class="card__access" >
           <div class="card__photo">
             <img src="assets/images/card-24hours-im.png" alt="" />
           </div>
-          <div class="card__text">
+          <div class="card__text" id="purple">
             <h4>24 Hours Access</h4>
             <p>
               Access is given 24 hours a<br />
@@ -113,12 +114,13 @@
             </span>
           </div>
         </div>
-
-        <div class="card__print">
+    </div>
+    <div class="card__screen-second">
+        <div class="card__print" >
           <div class="card__photo">
             <img src="assets/images/card-print-im.png" alt="" />
           </div>
-          <div class="card__text">
+          <div class="card__text" id="violet">
             <h4>Print Out</h4>
             <p>
               Print out service gives you<br />
@@ -153,6 +155,7 @@
             </span>
           </div>
         </div>
+    </div>
       </div>
     </section>
 
@@ -195,7 +198,7 @@
     </section>
 
     <footer>
-      <section class="free">
+      <div class="free">
         <div class="free__title">
           <h2>Try for free!</h2>
           <p>Get limited 1 week free try our features!</p>
@@ -209,9 +212,9 @@
             value="Request Demo"
           />
         </div>
-      </section>
+      </div>
 
-      <section class="links">
+      <div class="links">
         <div class="links__info">
           <img src="assets/images/logo-footer.svg" alt="logo" />
           <p>
@@ -224,23 +227,18 @@
         </div>
 
         <div class="about">
-          <ul>
-            <li><p>About</p></li>
-            <li>
+          
+            <p>About</p>
               <ul>
                 <li><a>Profile</a></li>
                 <li><a>Features</a></li>
                 <li><a>Careers</a></li>
                 <li><a>DW News</a></li>
               </ul>
-            </li>
-          </ul>
         </div>
 
         <div class="help">
-          <ul>
-            <li><p>Help</p></li>
-            <li>
+            <p>Help</p>
               <ul>
                 <li><a>Support</a></li>
                 <li><a>Sign up</a></li>
@@ -248,29 +246,24 @@
                 <li><a>Reports</a></li>
                 <li><a>Q&A</a></li>
               </ul>
-            </li>
-          </ul>
         </div>
 
         <div class="social">
-          <ul>
-            <li><p>Social Media</p></li>
-            <li>
-              <ul class="media-list">
-                <li class="media">
-                  <a><img src="assets/images/f.svg" alt="facebook" /></a>
-                </li>
-                <li class="media">
-                  <a><img src="assets/images/t.svg" alt="twitter" /></a>
-                </li>
-                <li class="media">
-                  <a><img src="assets/images/i.svg" alt="instagram" /></a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+          
+            <p>Social Media</p>
+                <ul>
+                    <li>                  
+                        <a><img src="assets/images/f.svg" alt="facebook" /></a>
+                    </li>
+                    <li>                 
+                        <a><img src="assets/images/t.svg" alt="twitter" /></a>
+                    </li>
+                    <li>                 
+                        <a><img src="assets/images/i.svg" alt="instagram" /></a>
+                    </li>
+                </ul>
         </div>
-      </section>
+      </div>
       <p>
         © Datawarehouse™, 2020. All rights reserved.<br />
         Company Registration Number: 21479524.
