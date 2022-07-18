@@ -631,29 +631,23 @@ header {
     font-size: 75px;
     line-height: 100%;
   }
-
   .storage > input {
     top: 150px;
   }
-
   .storage > h1 {
     width: 100%;
   }
-
   .storage > p {
     width: 50%;
   }
-
   .bank__photo {
     opacity: 40%;
   }
-
   .features {
     margin: 0px;
     margin-bottom: 120px;
     width: 73%;
   }
-
   .features__title {
     position: relative;
     left: 20%;
@@ -663,18 +657,15 @@ header {
   header {
     margin-bottom: 150px;
   }
-
   .menu {
     display: none;
   }
-
   .storage {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
   }
-
   .storage > h1 {
     text-align: center;
     width: -webkit-fit-content;
@@ -683,7 +674,6 @@ header {
     font-size: 40px;
     line-height: 100%;
   }
-
   .storage > p {
     text-align: center;
     width: -webkit-fit-content;
@@ -695,12 +685,10 @@ header {
     font-weight: 600;
     color: #212353;
   }
-
   .storage > input {
     left: 0px;
     top: 66px;
   }
-
   .storage > img {
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -712,74 +700,60 @@ header {
     top: -277px;
     opacity: 40%;
   }
-
   .card__screen-first {
     flex-direction: column;
   }
-
   .card__screen-second {
     flex-direction: column;
   }
-
   .bank {
     width: 100%;
   }
-
   .bank__photo > img {
     opacity: 40%;
   }
-
   .bank__text > h2 {
     line-height: 100%;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
-
   .bank__text > p {
     font-weight: 700;
     color: #212353;
   }
-
   .testimonials {
     height: 765px;
   }
-
   .testimonials > h2 {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
   }
-
   .profiles {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
   .profile__man {
     margin: 0px;
     width: 100%;
     height: 235px;
     margin-bottom: 50px;
   }
-
   .profile__woman {
     margin: 0px;
     width: 100%;
     height: 235px;
   }
-
   .free {
     align-items: center;
     flex-direction: column;
   }
-
   .free__title {
     align-items: center;
     margin-bottom: 20px;
   }
-
   footer > p {
     text-align: center;
   }
@@ -791,31 +765,29 @@ header {
     height: 352px;
     text-align: center;
   }
-
   .profile__woman {
     height: 352px;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-
   .testimonials {
     height: 1000px;
   }
-
   .card__text {
     left: -159px;
   }
-
   .card__photo {
     opacity: 50%;
   }
 }
 @media screen and (min-width: 320px) {
+  header {
+    margin-bottom: 190px;
+  }
   .bank__photo {
     display: none;
   }
-
   .bank__text {
     background-image: url(assets/images/second-screen.png);
   }
@@ -825,21 +797,19 @@ header {
   .bank__text p {
     text-align: center;
   }
-
   .bank {
     background-image: url(assets/images/second-screen.png);
   }
-
   .storage input {
     width: 70%;
     height: 50px;
+    border: 6px solid #9C69E2;
   }
   .storage img {
     width: 200%;
-    top: -496px;
+    top: -418px;
     left: -25px;
   }
-
   .card__text {
     left: -228px;
     width: 310px;
@@ -849,50 +819,41 @@ header {
     color: #0e0e4e;
     font-size: larger;
   }
-
   .card__photo {
     opacity: 30%;
     left: 40px;
   }
-
   .testimonials {
     background-color: #fff;
   }
   .testimonials h2 {
     margin-bottom: 15px;
   }
-
   .profile__man {
     height: 501px;
     align-items: flex-start;
     text-align: left;
   }
-
   .profile__woman {
     height: 501px;
     align-items: flex-start;
     text-align: left;
   }
-
   .free__title {
     text-align: center;
   }
-
   .free__btns {
     flex-direction: column;
   }
-
   .btn {
     margin-bottom: 10px;
   }
-
   .about {
     margin: 0px;
     width: 100%;
     text-align: center;
     align-items: center;
   }
-
   .help {
     margin: 0px;
     width: -webkit-fit-content;
@@ -901,17 +862,120 @@ header {
     text-align: center;
     align-items: center;
   }
-
   .social {
     margin: 0px;
   }
-
   .links {
     flex-direction: column;
     align-items: center;
     width: 332px;
   }
-
+  .links__info > p {
+    text-align: center;
+  }
+  .button {
+    width: 140px;
+    height: 35px;
+  }
+}
+@media screen and (max-width: 320px) {
+  header {
+    margin-bottom: 50px;
+  }
+  .button {
+    width: 100px;
+    font-size: 10px;
+    height: 38px;
+  }
+  .storage input {
+    width: 70%;
+    height: 50px;
+    border: 6px solid #9C69E2;
+  }
+  .storage img {
+    display: none;
+  }
+  .bank__photo {
+    display: none;
+  }
+  .bank {
+    width: 100%;
+    height: 800px;
+    background-color: #FDE8F5;
+  }
+  .bank__text {
+    height: 496px;
+    width: 490px;
+  }
+  .bank__text h2 {
+    text-align: center;
+  }
+  .bank__text p {
+    text-align: center;
+  }
+  .card__text {
+    left: -228px;
+    width: 239px;
+    height: 456px;
+    text-align: center;
+  }
+  .card__text p {
+    color: #0e0e4e;
+    font-size: larger;
+  }
+  .card__text h4 {
+    font-weight: 500;
+    color: #8A40EE;
+  }
+  .card__photo {
+    opacity: 20%;
+    left: 40px;
+  }
+  .testimonials {
+    background-color: #fff;
+  }
+  .profile__man {
+    height: 438px;
+  }
+  .profile__woman {
+    height: 438px;
+  }
+  .free__title {
+    text-align: center;
+  }
+  .free__btns {
+    flex-direction: column;
+  }
+  .free__btns .button {
+    width: 210px;
+    height: 60px;
+  }
+  .btn {
+    margin-bottom: 10px;
+  }
+  .about {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .help {
+    margin: 0px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-align: center;
+    align-items: center;
+  }
+  .social {
+    margin: 0px;
+  }
+  .links {
+    flex-direction: column;
+    align-items: center;
+    width: 332px;
+    margin-bottom: 35px;
+  }
   .links__info > p {
     text-align: center;
   }
